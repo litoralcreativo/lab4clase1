@@ -1,2 +1,0 @@
-esto es un archivo nuevo
-para git
