@@ -1,0 +1,157 @@
+body { 
+    color: #000;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.page-footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 1rem;
+    color: white;
+}
+
+.navbar {
+    height: 4rem;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 0.5rem
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar ul li:hover a {
+    border-bottom: 1px solid gray;
+}
+
+.navbar ul li.selected a {
+    border-bottom: 1px solid black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+}
+
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+}
+
+section > div {
+    padding: 1rem;
+}
+
+.card-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 200px;
+    height: 500px;
+    flex-grow: 1;
+    background-color: #eee;
+    border-radius: 0.5rem;
+}
+
+.card div {
+    width: 100%;
+    height: 50%;
+}
+
+.card div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.card p {
+    padding: 1rem;
+}
+.card a {
+    margin-bottom: 1rem;
+}
+
+.section-title {
+    background-color: #aaa;
+    color: white;
+    padding: 1rem;
+}
+
+.form-container {
+    padding: 1rem;
+    width: 100%;
+}
+
+.form-group {
+    margin-top: 1rem;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+}
+
+.tabla-pedidos {
+    width: 80%;
+    border-collapse: collapse;
+    border: none;
+}
+
+.tabla-pedidos th {
+    background-color: darkgray;
+    color: white;
+}
+
+.tabla-pedidos tr {
+    background-color: white;
+}
+
+.tabla-pedidos > tbody > tr:nth-child(odd) {
+    background-color: rgb(230, 230, 230);
+}
+
+.tabla-pedidos tbody tr td {
+    padding: 1rem;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Laboratorio 4 - HOME</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href="./index.html">HOME</a>
+            </li>
+            <li class="selected">
+                <a href="./haztupedido.html">HAZ TU PEDIDO</a>
+            </li>
+            <li>
+                <a href="./tupedido.html">TUS PEDIDOS</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container form-container">
+        <h1>Realiza tu pedido</h1>
+        <form action="">
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+                <label for="surename">Apellido</label>
+                <input type="text" name="surename" class="form-control" id="surename">
+            </div>
+            <div class="form-group">
+                <label for="flores">Elegi una flor</label>
+                <select name="flores" id="flores">
+                    <option value="1">Gardenia</option>
+                    <option value="2">Rosas</option>
+                    <option value="3">Gladiolos</option>
+                    <option value="4">Crisantemos</option>
+                    <option value="5">Yerbera</option>
+                </select>
+                <label for="cantidad">Cantidad</label>
+                <input type="number" value="1" name="cantidad" id="cantidad">
+            </div>
+            <div class="form-group">
+                <label for="descripcion">Descripcion</label>
+                <textarea type="" name="descripcion" idclass="form-control" id="descripcion">
+
+                </textarea>
+            </div>
+            <button type="submit">enviar</button>
+        </form>
+    </div>
+</body>
+</html>
